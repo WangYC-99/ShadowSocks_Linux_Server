@@ -1,0 +1,1 @@
+watch -d systemctl status shadowsocks-libev --no-pager
