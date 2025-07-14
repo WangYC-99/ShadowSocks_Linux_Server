@@ -27,8 +27,8 @@ sudo apt install shadowsocks-libev -y
 sudo systemctl restart shadowsocks-libev
 sudo systemctl enable shadowsocks-libev
 
-sudo ufw allow 9999/tcp
-sudo ufw allow 9999/udp
+sudo ufw allow xxxx/tcp
+sudo ufw allow xxxx/udp
 
 sudo touch /var/log/shadowsocks.log
 sudo chown nobody:nogroup /var/log/shadowsocks.log
